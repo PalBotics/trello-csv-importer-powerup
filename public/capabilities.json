@@ -1,0 +1,28 @@
+{
+  "name": "CSV Importer",
+  "description": "Import cards and lists into Trello from a CSV file.",
+  "icon": "https://trello-csv-importer.netlify.app/CSV-importer-icon.png"
+,
+  "app": {
+    "url": "/client.js"
+  },
+  "connect": {
+    "url": "/index.html"
+  },
+  "permissions": {
+    "board": "read",
+    "write": true
+  },
+  "capabilities": [
+    "card-buttons",
+    "show-settings"
+  ],
+  "card-buttons": [
+    {
+      "text": "Test CSV Button",
+      "callback": "showImportPopup"
+    }
+  ],
+  "author": "PalBotics",
+  "version": "1.0"
+}
