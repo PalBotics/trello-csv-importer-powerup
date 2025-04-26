@@ -1,7 +1,7 @@
 {
   "name": "CSV Importer",
   "description": "Import cards and lists into Trello from a CSV file.",
-  "icon": "https://trello-csv-importer.netlify.app/CSV-importer-icon.png"
+  "icon": "https://trello-csv-importer-powerup.vercel.app/CSV-importer-icon.png"
 ,
   "app": {
     "url": "/client.js"
