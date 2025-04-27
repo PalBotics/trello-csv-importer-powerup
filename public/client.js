@@ -3,7 +3,7 @@ console.log("Trello Power-Up: client.js loaded");
 function showImportPopup(t) {
   console.log("Trello Power-Up: button clicked");
   return t.popup({
-    title: 'Import CSV',
+    title: 'Import CSV File',
     url: 'popup.html',
     height: 200
   });
