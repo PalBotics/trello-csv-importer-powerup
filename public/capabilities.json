@@ -14,7 +14,8 @@
   },
   "capabilities": [
     "board-buttons",
-    "show-settings"
+    "show-settings",
+    "authorization"
   ],
   "board-buttons": [
     {
@@ -22,6 +23,9 @@
       "callback": "showImportPopup"
     }
   ],
+  "authorization": {
+    "type": "none"
+  },
   "author": "PalBotics",
   "version": "1.0"
 }
