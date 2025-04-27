@@ -1,7 +1,5 @@
 console.log("Trello Power-Up: client.js loaded");
 
-const t = window.TrelloPowerUp.iframe();
-
 function showImportPopup(t) {
   console.log("Trello Power-Up: button clicked");
   return t.popup({
